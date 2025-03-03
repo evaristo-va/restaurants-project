@@ -46,6 +46,17 @@ For our modelling we will use SARIMA (Seasonal AutoRegressive Integrated Moving 
 
 <img width="1150" alt="Screenshot 2025-03-03 at 1 48 32 PM" src="https://github.com/user-attachments/assets/85ba3bc0-cc44-4a69-a630-31a36a5e9719" />
 
+### Feature Selection and Engineering
+We considered different features:
+- Weather features: average temperature on the day and whether it rained () or not (). Obtained through the meteostat API.
+- Weekend indicator variable: Not a weekend (0) or weekend (1).
+- Holiday indicator variable: Not a holiday (0) or a holiday (1).
+We assessed the correlation of these features with the quantity sold. For example there is a strong correlation between weekend and quantity sold for Latte.
+
+<img width="776" alt="Screenshot 2025-03-03 at 2 25 39 PM" src="https://github.com/user-attachments/assets/e206bd2c-a6d9-44ea-90f7-3dbaa0b61e51" />
+
+
+
 
 ### Movelling of menu items
 For the modelling of menu items we will first perform a test to differentiate between items that show seaosnlity and those that do not.
