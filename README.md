@@ -1,5 +1,9 @@
 # AI-driven solutions for the restaurant industry 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c08a41c7-d0b9-4b85-8e8e-44fb672fc7bb" alt="Alt Text" width="700">
+</p>
+
 ### Introduction
 
 In the US alone, restaurants waste 25bn pounds of food every year before it reaches the consumers plate and independent restaurants are a large driver of this. This is crucial for an industry that operates with very low profit margins of 3% to 6% on average. 
