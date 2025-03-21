@@ -4,14 +4,14 @@
   <img src="https://github.com/user-attachments/assets/c08a41c7-d0b9-4b85-8e8e-44fb672fc7bb" alt="Alt Text" width="700">
 </p>
 
-### Introduction
+### 👨🏻‍🍳 Introduction
 
 In the US alone, restaurants waste 25bn pounds of food every year before it reaches the consumers plate and independent restaurants are a large driver of this. This is crucial for an industry that operates with very low profit margins of 3% to 6% on average. 
 
-### Project description
+### 📖 Project description
 In this project we have partnered with Burnt (https://burnt.squarespace.com), whose mission is to help restaurants automate their back-of-house operational flow: recipe management, inventory forecasting, analysis and optimization of costs. In this project, we will use real-world time series data from restaurants to forecast the total revenue and menu item sales based on different factors such as day of the week, weather, holidays etc. This will help to optimize ordering decisions for maximum efficiency.
 
-### Data Collection
+### 📝 Data Collection
 The dataset provided by Burnt, consists on real-world sales data for restaurant 'XYZ' located in lower Manhattan, New York. We refer to this restaurant as 'XYZ' to maintain confidentiality. The columns are:
 - Item Id: Identifyer the item sold (String)
 - Item Name: Name of the item sold (String)
@@ -20,7 +20,7 @@ The dataset provided by Burnt, consists on real-world sales data for restaurant 
 - Quantity: Quantity sold (Integer) 
 - Price: Price of item sold (Real)
 
-### Restaurant analytics
+### 📊 Restaurant analytics
 Analysis of total revenue:
 - Revenue consistently increases from Monday to Saturday, indicating higher customer activity as the week progresses.
 - The majority of revenue is generated at night, followed by the afternoon, while mornings contribute the least.
@@ -40,7 +40,7 @@ The top revenue-generating categories are:
 - Appetizers: 10.1%
 <img width="754" alt="Screenshot 2025-03-03 at 1 22 53 PM" src="https://github.com/user-attachments/assets/1d6d62e4-eee4-4d08-b098-57df169f6b4f" />
 
-### Modelling of total daily sales
+### 📈 Modelling of total daily sales
 For our modelling we will use SARIMA (Seasonal AutoRegressive Integrated Moving Average) model. We first identified our data displays weekly seasonality. The optimal model parameters where found by doing a grid search and selecting those that lead to the lowest AIC (Akaike Information Criterion). The best model found was ARIMA(5,1,0)(2,0,2)[7] with AIC=5033.657 .
 
 
